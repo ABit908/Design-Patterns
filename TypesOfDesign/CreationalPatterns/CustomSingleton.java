@@ -32,7 +32,7 @@ public class CustomSingleton{
 
     public static void main(String[] args)
     {
-        Singleton singleton1 = ¬Singleton.getInstance("First Instance Data");
+        Singleton singleton1 =Singleton.getInstance("First Instance Data");
         System.out.println("Data from singleton1: " + singleton1.getData());
 
         // Get the singleton instance again with different data
